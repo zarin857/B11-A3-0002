@@ -34,9 +34,9 @@
 </style>
 </head>
 <body class="sora">
-   <header>
+   <header class="bg-gray">
     <!-- navbar section -->
-    <div class="navbar bg-gray container mx-auto">
+    <div class="navbar container mx-auto">
   <div class="navbar-start">
    
      <a><img class="lg:hidden md:hidden" src="c2-assets/logo-footer.png" alt=""></a>
@@ -49,9 +49,14 @@
       <li><a>Contact us</a></li>
     </ul>
   </div>
- 
   <div class="navbar-end ">
-      <div class="dropdown lg:hidden">
+    <div class="hidden md:inline-flex lg:inline-flex gap-x-3.5">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <a class="btn btn-sm bg-white border-y-green-600 border-x-green-600">Login</a>
+    <a class="btn btn-sm bg-accent text-white">Register</a>
+    </div>
+       <div class="dropdown inline-block md:hidden lg:hidden">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
@@ -62,14 +67,18 @@
         <li><a>Contact us</a></li>
       </ul>
     </div>
-    <div class="hidden md:inline-flex lg:inline-flex gap-x-3.5">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <i class="fa-solid fa-cart-shopping"></i>
-    <a class="btn btn-sm bg-white border-y-green-600 border-x-green-600">Login</a>
-    <a class="btn btn-sm bg-accent text-white">Register</a>
-    </div>
   </div>
 </div>
+<!-- banner section -->
+ <!-- freshness section -->
+  <div class="bg-gray">
+  <div class="mt-24 text-center">
+  <h1 class="text-6xl font-semibold text-[#111111]">Freshness <span class="text-accent">You Can <br>
+Count</span> On, Prices You’ll Love!</h1>
+  <p class="text-xl font-normal mt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+  </div>
+  <img class="mx-auto" src="c2-assets/hero-vegetables.png" alt="">
+  </div>
    </header>
    <main>
     
